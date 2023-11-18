@@ -1,0 +1,204 @@
+@charset "UTF-8";
+
+body::after {
+  content: "";
+  background: url(../Images/cafeteria.jpg);
+  background-repeat:no-repeat;
+  background-size: 100% 100%;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  z-index: -2;  
+}
+
+form.welcome {
+	border: 2px solid white;
+	margin-top:10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 500px;
+	border-radius: 10px;
+	background-color: rgba(255,255,255, 0.8);
+	background-size: 100% 100%;
+	margin:auto;
+}
+
+#errorMsg {
+	color:red;
+}
+
+#deleteErrorMsg {
+	color:red;
+}
+
+#greeting {
+	color: black;
+	font-size: 40px;
+	font-weight: bold;
+	margin-left: 50px;
+}
+
+div.horizontal-container {
+	display: flex;
+}
+	         
+div.left-panel {
+	flex: 1;
+	margin-top:20px;
+	margin-right: 40px;
+	margin-left: 50px;
+	margin-bottom: 50px;
+	border: 2px solid white;
+	padding-top: 10px;
+	width: 450px;
+	height: 520px;
+	border-radius: 10px;
+	background-color: rgba(255,255,255, 0.8);
+}
+	        
+div.right-panel {
+	flex: 1;
+	margin-top:20px;
+	margin-right: 40px;
+	margin-bottom: 50px;
+	border: 2px solid white;
+	
+	padding-left: 50px;
+	padding-right: 20px;
+	padding-top: 10px;
+	width: 450px;
+	height: 520px;
+	border-radius: 10px;
+	background-color: rgba(255,255,255, 0.8);
+}
+
+span.Menu {
+  	line-height: 30px;
+ 	padding: 17px;
+	font-size: 20px;
+}
+
+#total {
+	font-size: 20px;
+	display: inline;
+}
+
+p.totalMoney{
+	font-size: 25px;
+	display: inline;
+}
+
+p.item{
+	font-size:20px;
+}
+
+#methods{
+	font-size:20px;
+	line-height: 30px;
+	text-align: center;
+}
+
+#container {
+	border: 2px solid white;
+	margin-top: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
+	width: 500px;
+	border-radius: 10px;
+	background-color: rgba(255,255,255, 0.8);
+	background-size: 100% 100%;
+	margin:auto;
+}
+
+form.Payment{
+	text-align: center;
+}
+
+form.Success {
+border: 2px solid white;
+margin-top: 10px;
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 40px;
+padding-right: 40px;
+width: 500px;
+border-radius: 10px;
+background-color: rgba(255,255,255, 0.8);
+background-size: 100% 100%;
+margin:auto;
+}
+
+#success{
+font-size:20px;
+line-height: 30px;
+}
+
+#goodDay{
+font-size:20px;
+line-height: 30px;
+text-align: center;
+}
+
+#button{
+text-align: center;
+}
+
+#backBoard{
+	margin-right: 40px;
+	margin-left: 40px;
+	margin-bottom: 40px;
+	margin-top: 50px;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	padding-left: 10px;
+	padding-right:10px;
+	border: 2px solid white;
+	border-radius: 10px;
+	background-color: rgba(255,255,255, 0.8);
+	z-index: -1;
+	
+	min-height: 200px;
+	
+	text-align:center;
+}
+	         
+div.orders {
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	padding-left: 50px;
+	padding-right: 10px;
+	width: 25% ; 
+	height: 330px;
+	
+	display: inline-block;
+	vertical-align: bottom;
+	
+	background: url(../Images/note.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	
+	text-align: left;
+	font-size: 18px; 
+}
+
+p.description {
+	font-weight: bold;
+}
+
+span.Admin{
+	color: blue;
+}
+
+#emptyMsg{
+	font-size: 20px;
+	text-align: center;
+}

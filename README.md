@@ -1,4 +1,4 @@
-# PFC_Cafeteria
+# PFC Cafeteria
 A simple food ordering system that allows users to place food orders and view all history orders. This is a dynamic web application built using Servlet, JSP, JavaScript and CSS. 
 
 ### Welcome Page

@@ -7,7 +7,7 @@ This page allows users to log in using a username and password. When the usernam
 otherwise, a line of message will be displayed to inform the user that the username and password combination is invalid.
 
 ### Menu Page
-<img src="https://github.com/Tianennnn/PFC_Cafeteria/blob/main/Screenshots/Menu%20Page%202.png" width="550" height="300">
+<img src="https://github.com/Tianennnn/PFC_Cafeteria/blob/main/Screenshots/Menu%20Page.png" width="550" height="300">
 Once logged in, users will be directed to the Menu page, where users can look at the menu on the left for a list of available foods and place orders on the right. Users can select
 the count for each of the items they want and the total price of the order will be calculated in real-time. Before users continue to the payment page, they can also choose to pay by cash
 or pay by cards.
